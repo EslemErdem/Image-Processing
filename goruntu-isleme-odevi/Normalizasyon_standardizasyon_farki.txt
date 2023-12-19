@@ -1,0 +1,15 @@
+
+Farkları:
+Normalizasyon, verileri belirli bir aralığa (genellikle 0 ile 1) sıkıştırır.
+Standardizasyon, verileri standart normal dağılıma (ortalama 0, standart sapma 1) dönüştürür.
+
+Normalizasyon, orijinal veri setindeki sıralama ve dağılım özelliklerini korur. Bu, veri setindeki değerlerin genel şeklinin değişmemesini sağlar.
+Standardizasyon orijinal dağılımı etkileyebilir,ancak genellikle daha güvenilir ve outlier'lar üzerinde daha etkilidir.Veri setindeki değerleri merkezileştirerek ve ölçeklendirerek modelin daha iyi performans göstermesine yardımcı olabilir.
+
+Normalizasyon, genellikle aykırı değerlere daha hassastır çünkü değerleri belirli bir aralığa sıkıştırır.
+Standardizasyon, aykırı değerlere daha dirençli olabilir, çünkü değerleri ortalamadan sapma birimlerine dönüştürerek etkilerini azaltabilir.
+
+Normalizasyon Formülü:X'=(X-min(X))/(max(X)-min(X))
+
+Standardizasyon Formülü=Z= (X-μ)/σ
+​
